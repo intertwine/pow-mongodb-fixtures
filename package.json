@@ -1,32 +1,31 @@
 {
-   "authors": [
+  "authors": [
     "Charles Davison <charlie@powmedia.co.uk>",
     "Bryan Young <bryan@intertwinesys.com>"
   ],
   "name": "pow-mongodb-fixtures",
   "description": "Easy JSON fixture loading for MongoDB.  Makes managing document relationships easier.",
-  "license":"MIT",
-  "version": "0.12.0",
+  "license": "MIT",
+  "version": "0.13.0",
   "repository": {
-      "type" : "git",
-      "url" : "http://github.com/powmedia/pow-mongodb-fixtures.git"
+    "type": "git",
+    "url": "http://github.com/powmedia/pow-mongodb-fixtures.git"
   },
   "bin": {
     "mongofixtures": "./bin/mongofixtures"
   },
   "engines": {
-    "iojs": ">= 1.8.1",
-    "node": ">= 0.4.1"
+    "node": "~5.1.0"
   },
   "dependencies": {
-		"async": "^1.5.0",
-		"mongodb": ">=2.0.47",
-		"underscore": ">=1.2.2",
-		"bson": ">=0.4.19",
-    "optimist": "0.6.1"
+    "async": "^1.5.2",
+    "bson": "^0.4.21",
+    "mongodb": "^2.1.7",
+    "optimist": "0.6.1",
+    "underscore": ">=1.2.2"
   },
-	"devDependencies": {
-		"nodeunit": "^0.9.1"
-	},
-	"main": "src/index"
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "main": "src/index"
 }
