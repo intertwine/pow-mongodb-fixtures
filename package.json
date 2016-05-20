@@ -6,7 +6,7 @@
   "name": "pow-mongodb-fixtures",
   "description": "Easy JSON fixture loading for MongoDB.  Makes managing document relationships easier.",
   "license": "MIT",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "repository": {
     "type": "git",
     "url": "http://github.com/powmedia/pow-mongodb-fixtures.git"
@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "async": "^1.5.2",
-    "bson": "^0.4.21",
-    "mongodb": "^2.1.7",
+    "bson": "^0.4.23",
+    "mongodb": "^2.1.19",
     "optimist": "0.6.1",
     "underscore": ">=1.2.2"
   },
